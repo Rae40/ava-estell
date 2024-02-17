@@ -1,0 +1,45 @@
+body{
+    text-align: center;
+    color: white;
+    background-color:  #6B2A15;
+  }
+
+  li{
+      text-align: left;
+      list-style: none;
+      text-decoration: none;
+      opacity: 0.5;
+      font-weight: normal;
+    }
+      
+
+    li:hover{
+      cursor: pointer;
+      border-radius: 10px;
+      text-decoration: underline;
+      font-weight: bold;
+      
+    }
+
+
+   footer a{
+      color: white;
+      text-decoration: none;
+      opacity: 0.5;
+    }
+
+    footer h3{
+      opacity: 0.5;
+    }
+
+    footer h3:hover{
+      text-decoration: underline;
+    }
+
+    .designed{
+      opacity: 0.5;
+    }
+
+     .designed a:hover{
+      text-decoration: underline;
+    }
