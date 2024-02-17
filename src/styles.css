@@ -21,6 +21,13 @@ body{
       
     }
 
+    .grid2 {
+      display: grid;
+      margin: 15px 0;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 15px;
+    }
+
 
    footer a{
       color: white;
