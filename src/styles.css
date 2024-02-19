@@ -21,6 +21,18 @@ body{
       
     }
 
+    .grid-2-columns{
+      display: grid;
+      grid-template-columns:  1fr, 1fr;
+    }
+
+    #owners{
+      display: block;
+      margin: auto;
+      background-color: hsl(0, 0%, 90%);
+    
+    }
+
     .grid2 {
       display: grid;
       margin: 15px 0;
