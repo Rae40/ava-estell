@@ -21,9 +21,19 @@ body{
       
     }
 
-    .grid-2-columns{
+    .container-fluid{
+      background-color: white;
+
+    }
+
+     .grid-2-columns{
       display: grid;
-      grid-template-columns:  1fr, 1fr;
+      grid-template-columns: 1fr 1fr;
+      grid-gap:10px;
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 25px;
+      background-color: #6B2A15;
     }
 
     #owners{
